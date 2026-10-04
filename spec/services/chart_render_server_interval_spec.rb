@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 require 'spec_helper'
-require 'active_support/all'
+require 'active_support'
+require 'active_support/core_ext/object/blank'
+require 'active_support/core_ext/string/inflections'
 
 RSpec.describe 'ChartRenderServer overview interval' do
   before do
